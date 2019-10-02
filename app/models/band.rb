@@ -14,14 +14,15 @@ class Band
         @@all
     end
 
+    # doesnt iterate over the array and print intro for each band instance 
     def self.all_introductions
         puts "Hello, we are #{name} and we're from #{hometown}"
     end
 
-    def play_in_venue(venue, date)
+    # def play_in_venue(venue, date)
 
-        Concert.all.each do |bands|
-            bands.
-        end
-    end
+    #     Concert.all.each do |bands|
+    #         bands.
+    #     end
+    # end
 end

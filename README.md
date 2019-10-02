@@ -49,3 +49,25 @@ ________________
 #### `Venue`
 - `Venue` should have a method `Venue#concerts` that lists all the concerts that have ever been performed in that venue
 - `Venue` should have a method `Venue#bands` that lists all the bands that have ever played in that venue
+
+#### `Vera Comments`
+### BAND CLASS 
+1. `Band.all_introductions`
+-  doesnt iterate over the array and print intro for each band instance 
+
+## Didnt complete: 
+-`Concert` should have methods `Concert#band` and `Concert#venue` that return the `Band` instance and `Venue` instance associated to the concert
+
+#Concert class 
+1. `Concert` should have a method `Concert#hometown_show?` that returns true if the concert is in the band's hometown and false if it is not
+- Concert is at a venue, that has a city. if that city is the same as the venue's band hometown return true 
+- what is self here? 
+
+2. `venue` method: what is self referring to? 
+
+#Venue class 
+- Concert is at a venue, that has a city. if that city is the same as the venue's band hometown return true 
+- what is self here? 
+
+2. `venue` method: what is self referring to? 
+
