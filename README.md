@@ -66,8 +66,7 @@ ________________
 2. `venue` method: what is self referring to? 
 
 #Venue class 
-- Concert is at a venue, that has a city. if that city is the same as the venue's band hometown return true 
-- what is self here? 
+1. `bands` method: what is self, what is performance argument refer to in each iteration? 
 
 2. `venue` method: what is self referring to? 
 
