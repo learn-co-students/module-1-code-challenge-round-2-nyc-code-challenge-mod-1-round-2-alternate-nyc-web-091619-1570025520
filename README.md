@@ -49,3 +49,19 @@ ________________
 #### `Venue`
 - `Venue` should have a method `Venue#concerts` that lists all the concerts that have ever been performed in that venue
 - `Venue` should have a method `Venue#bands` that lists all the bands that have ever played in that venue
+
+
+## Vera Notes: 
+### Band Class: 
+1) `Band.all_introductions`
+  - undefined method hometown and name: why does that happen? 
+  (because in the iteration you are going through every band, so the band argument is a band instance that has a hometown and a name, so you had to do band.hometown and band.name inside your loop)
+
+### Venue Class: 
+1) `concerts` 
+- throws an error: wrong number of arguments, do you know why? 
+- undefined method all (after previous error is fixed), didnt finish writing method, so assuming that you were in the middle of something
+
+2) `bands`
+ - finish that plz
+
