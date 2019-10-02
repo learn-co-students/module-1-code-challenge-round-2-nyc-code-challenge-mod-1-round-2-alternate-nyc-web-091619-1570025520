@@ -1,0 +1,33 @@
+class Venue
+
+    attr_reader :title, :city
+
+    @@all = []
+
+    def initialize(title, city)
+        @title = title
+        @city = city
+
+        @@all << self
+    end
+
+    def self.all
+        @@all
+    end
+
+    def concerts
+        Concert.all.select do |concert|
+            concert.venue == self
+        end 
+    end
+
+    def bands
+        concerts.map do |concert|
+            concert.band
+        end
+    end
+
+    #my_bands = Concert.all.
+
+
+end #End Of Class
